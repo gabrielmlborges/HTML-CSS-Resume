@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-body {
+html {
     background-color: black;
+}
+
+body {
+    background-color: #070707;
     color: white;
     max-width: 1000px;
     margin: auto;
     font-family: Inter, sans-serif;
+    padding: 5%;
 }
 
 .Caixa {
@@ -28,5 +33,9 @@ h3 {
 }
 
 #Nome {
+    color: crimson;
+}
+
+a {
     color: crimson;
 }
